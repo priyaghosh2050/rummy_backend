@@ -1,0 +1,50 @@
+{
+  "name": "new_rummy_backend",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://_avani_@bitbucket.org/codeaxes1/new_rummy_backend.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Express",
+    "Mongodb"
+  ],
+  "author": "codeaxes.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/codeaxes1/new_rummy_backend/issues"
+  },
+  "homepage": "https://bitbucket.org/codeaxes1/new_rummy_backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1112.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "cuid": "^2.1.8",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.2.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "razorpay": "^2.8.1"
+  }
+}
